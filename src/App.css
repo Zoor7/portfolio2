@@ -1,0 +1,56 @@
+.App{
+    display: grid;
+    grid-template-columns: minmax(50px, 250px) minmax(200px,1fr);
+    height: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    
+}
+
+
+.main{
+    display: grid;
+    height: 100%;
+    place-content: center;
+    gap: 3rem;
+    margin: 0 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 550px));
+    grid-auto-rows: minmax(100px, auto);
+    overflow: auto;
+
+}
+.main>div>div{
+    margin: 0.5rem;
+}
+.link{
+    color: black;
+}
+.footer{
+    display: none;
+}
+
+
+
+@media (max-width: 700px) {
+    .App{
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: minmax(200px,1fr);
+    }
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0;
+        overflow: unset;
+        overflow-wrap: break-word;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+  }
+
+
+

@@ -1,0 +1,21 @@
+.projects{
+    
+}
+.projects ul{
+    list-style: none;
+    width: fit-content;
+}
+.projects li{
+    cursor: pointer;
+    width: 100%;
+    margin: 0.5rem;
+    color: #524e47;
+    border-bottom: 1px solid black;
+    transition: all 0.3s;
+}
+.projects li:hover{
+    color: black;
+    font-size: 1.1rem;
+    transform: translateX(1rem);
+    
+}
