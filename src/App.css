@@ -2,25 +2,27 @@
     display: grid;
     grid-template-columns: minmax(50px, 250px) minmax(200px,1fr);
     height: 100%;
-    overflow: auto;
     overflow-x: hidden;
-    overflow-wrap: break-word;
-    
 }
 
 
 .main{
-    display: grid;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: center;
     height: 100%;
-    place-content: center;
-    gap: 3rem;
-    margin: 0 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 550px));
-    grid-auto-rows: minmax(100px, auto);
-    overflow: auto;
 
 }
-.main>div>div{
+.main-container{
+    display: grid;
+    align-self: center;
+    height: 60%;
+    gap: 2rem;
+    grid-template-columns:repeat(2,minmax(200px,600px));
+
+}
+
+.main-container>div>div{
     margin: 0.5rem;
 }
 .link{
@@ -37,19 +39,31 @@
         display: grid;
         grid-auto-flow: row;
         grid-template-columns: minmax(200px,1fr);
+        overflow-y: auto;
     }
     .main{
+        margin: 0.5rem;
+        overflow: unset;
+    }
+    
+    .main-container{
         display: grid;
         grid-template-columns: 1fr;
         margin: 0;
         overflow: unset;
-        overflow-wrap: break-word;
     }
     .footer{
         display: flex;
         justify-content: space-around;
     }
     
+}
+@media (max-width: 1100px) {
+    .main-container{
+        grid-template-columns: 1fr;
+        height: 90%;
+
+      }
   }
 
 
