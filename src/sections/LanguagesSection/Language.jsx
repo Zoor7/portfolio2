@@ -7,7 +7,7 @@ const Language = () => {
             <ul>
                 <li>Catalan native</li>
                 <li>Spanish native</li>
-                <li>Ingles B2</li>
+                <li>English B2</li>
             </ul>
         </div>
     );

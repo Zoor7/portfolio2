@@ -1,14 +1,26 @@
+import useLocalStorage from 'use-local-storage'
+
+import Sidebar from './sections/Sidebar/sidebar'
+import Projects from './sections/ProjectsSection/Projects'
+import Contact from './sections/Contact/Contact'
+import Language from './sections/LanguagesSection/Language'
+
 import './App.css'
-import Sidebar from './Components/Sidebar/sidebar'
-import Projects from './Components/Projects/Projects'
-import Contact from './Components/Contact/Contact'
-import Language from './Components/LanguagesSection/Language'
+
+
 
 function App() {
+  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
+
+  const switchTheme =()=>{
+    const newTheme = theme === 'light' ? 'dark' : 'light'
+    setTheme(newTheme)
+  }
 
   return (
-    <div className="App">
-      <Sidebar></Sidebar>
+    <div className="App" data-theme={theme}>
+      <Sidebar theme={theme} switchTheme={switchTheme}></Sidebar>
       <div className="main">
         <div className="main-container">
 

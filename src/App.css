@@ -3,7 +3,20 @@
     grid-template-columns: minmax(50px, 250px) minmax(200px,1fr);
     height: 100%;
     overflow-x: hidden;
+    background-color: var(--background);
+    color: var(--text-primary);
 }
+a{
+    color: var(--text-primary);
+}
+h2{
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    font-weight: 900;
+    background-color: var(--background-secondary);
+    color: var(--text-secondary);
+}
+
 
 
 .main{
@@ -11,13 +24,14 @@
     overflow-x: hidden;
     justify-content: center;
     height: 100%;
+    transition: all 0.5s;
 
 }
 .main-container{
     display: grid;
     align-self: center;
     height: 60%;
-    gap: 2rem;
+    gap: 3rem;
     grid-template-columns:repeat(2,minmax(200px,600px));
 
 }
@@ -25,9 +39,7 @@
 .main-container>div>div{
     margin: 0.5rem;
 }
-.link{
-    color: black;
-}
+
 .footer{
     display: none;
 }
@@ -42,14 +54,13 @@
         overflow-y: auto;
     }
     .main{
-        margin: 0.5rem;
         overflow: unset;
     }
     
     .main-container{
         display: grid;
         grid-template-columns: 1fr;
-        margin: 0;
+        margin: 2rem 0.5rem;
         overflow: unset;
     }
     .footer{

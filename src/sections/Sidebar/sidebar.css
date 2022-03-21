@@ -15,6 +15,7 @@
     width: 100%;
     height: 100%;
 }
+
 .name{
     display: flex;
     text-transform: uppercase;
@@ -26,7 +27,7 @@
 }
 hr{
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid var(--text-primary);
 }
 .lan-contact>div{
     margin: 1rem 0;
@@ -38,11 +39,16 @@ hr{
 @media (max-width: 700px) {
     .sidebar{
         display: flex;
-        padding-bottom: 2rem;
+        justify-items: center;
         gap: 0;
+    }
+    .avatar{
+        justify-content: center;
     }
     .name-role{
         display: flex;
+        align-items: center;
+        text-align: center;
         flex-direction: column;
         justify-content: center;
     }
