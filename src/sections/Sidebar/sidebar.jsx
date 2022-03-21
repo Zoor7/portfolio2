@@ -1,10 +1,11 @@
 import React from 'react';
+import ThemeSwitch from '../../Components/ThemeSwitch/ThemeSwitch';
 import Contact from '../Contact/Contact';
 import Language from '../LanguagesSection/Language';
 import "./sidebar.css"
 
 
-const Sidebar = () => {
+const Sidebar = ({switchTheme,theme}) => {
 
 
     return (
@@ -27,6 +28,7 @@ const Sidebar = () => {
             <div className="name-role">
                 <div className="name">Héctor LLorca</div>
                 <div className="role">Junior FullStack</div>
+            <ThemeSwitch theme={theme} switchTheme={switchTheme}></ThemeSwitch>
             </div>
             <hr />
             <div className="lan-contact">

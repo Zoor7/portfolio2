@@ -1,4 +1,5 @@
 .projects{
+
     
 }
 .projects ul{
@@ -7,14 +8,12 @@
 }
 .projects li{
     cursor: pointer;
-    width: 100%;
+    width: auto;
     margin: 0.5rem;
-    color: #524e47;
-    border-bottom: 1px solid black;
-    transition: all 0.3s;
+    border-bottom: 1px solid var(--text-primary);
+    transition: transform 0.5s;
 }
 .projects li:hover{
-    color: black;
     font-size: 1.1rem;
     transform: translateX(1rem);
     

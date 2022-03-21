@@ -15,8 +15,6 @@ html, #root{
 body {
   display: flex;
   flex-direction: column;
-  background-color: #f7f2e9;
-  color: #524e47;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,4 +25,19 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --background: #f7f2e9;
+  --background-secondary:#9599E2;
+  --text-primary: #524e47;
+  --text-secondary: #f7f2e9;
+  --accent: purple;
+}
+[data-theme='dark'] {
+  --background: #9599E2;
+  --background-secondary:#f7f2e9;
+  --text-primary: #f7f2e9;
+  --text-secondary: #524e47;
+  --accent: darkred;
 }

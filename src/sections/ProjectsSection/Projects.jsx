@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import Card from "./Card/Card"
+import Card from "../../Components/Card/Card"
 import "./projects.css"
-import data from "../../data/data.json"
+import data from "../../utils/data.json"
 
 
 
