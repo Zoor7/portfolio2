@@ -27,6 +27,7 @@ const Projects = () => {
                 </div>
                 : <ul>
                     <li onClick={handleClick}>BasketRank</li>
+                    <li onClick={handleClick}>aerolab-challenge-vite</li>
                 </ul>
             }
 
