@@ -31,7 +31,7 @@ h2{
     display: grid;
     align-self: center;
     height: 60%;
-    gap: 3rem;
+    gap: 5rem;
     grid-template-columns:repeat(2,minmax(200px,600px));
 
 }
@@ -64,8 +64,9 @@ h2{
         overflow: unset;
     }
     .footer{
-        display: flex;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: repeat(2,minmax(100px, 500px));
+        word-wrap: break-word;
     }
     
 }
