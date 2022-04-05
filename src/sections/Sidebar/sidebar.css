@@ -3,6 +3,7 @@
     height: 100%;
     place-content: center;
     gap: 3rem;
+    z-index: 2;
 
 }
 .avatar{
