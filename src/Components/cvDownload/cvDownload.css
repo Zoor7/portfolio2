@@ -1,0 +1,12 @@
+.cvDownload{
+    position: relative;
+    width: 70px;
+    cursor: pointer;
+}
+.cvDownload::after{
+    background-color: aqua;
+
+}
+.cvDownload img{
+    width: 100%;
+}

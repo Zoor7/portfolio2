@@ -1,4 +1,5 @@
 import React from 'react'
+import CvDownload from '../../Components/cvDownload/cvDownload'
 import ThemeSwitch from '../../Components/ThemeSwitch/ThemeSwitch'
 import Contact from '../Contact/Contact'
 import Language from '../LanguagesSection/Language'
@@ -21,9 +22,12 @@ const Sidebar = ({ switchTheme, theme }) => {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
       </div>
       <div className="name-role">
-        <div className="name">Héctor LLorca</div>
-        <div className="role">Junior FullStack</div>
-        <ThemeSwitch theme={theme} switchTheme={switchTheme}></ThemeSwitch>
+        <p className="name">Héctor LLorca</p>
+        <p className="role">Junior FullStack</p>
+      <div className='themeCv'>
+          <ThemeSwitch theme={theme} switchTheme={switchTheme}></ThemeSwitch>
+          <CvDownload/>
+        </div>
       </div>
       <hr />
       <div className="lan-contact">
