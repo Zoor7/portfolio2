@@ -16,7 +16,7 @@ const Projects = () => {
   return (
     <div className="projects">
       <div className="title">
-        <p>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</p>
+        <p>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</p>
       </div>
       {project
         ? (
