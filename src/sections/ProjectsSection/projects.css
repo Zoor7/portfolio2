@@ -1,7 +1,7 @@
 .projects{
-
     
 }
+
 .projects ul{
     list-style: none;
     width: fit-content;
@@ -18,3 +18,5 @@
     transform: translateX(1rem);
     
 }
+
+

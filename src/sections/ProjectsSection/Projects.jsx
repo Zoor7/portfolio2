@@ -15,17 +15,19 @@ const Projects = () => {
   }
   return (
     <div className="projects">
-      <h2>PROJECTS</h2>
-      {project ? (
-        <div>
-          <Card project={project} handleClose={handleClose}></Card>
-        </div>
-      ) : (
+      <div className="title">
+        <p>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</p>
+      </div>
+      {project
+        ? (
+        <Card project={project} handleClose={handleClose}></Card>
+          )
+        : (
         <ul>
           <li onClick={handleClick}>BasketRank</li>
           <li onClick={handleClick}>aerolab-challenge-vite</li>
         </ul>
-      )}
+          )}
     </div>
   )
 }

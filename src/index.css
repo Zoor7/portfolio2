@@ -41,3 +41,13 @@ code {
   --text-secondary: #524e47;
   --accent: darkred;
 }
+
+@keyframes textMove {
+  from{
+    transform: translate(0,0);
+  }
+  to{
+    transform: translate(-100%,0);
+  }
+    
+}
