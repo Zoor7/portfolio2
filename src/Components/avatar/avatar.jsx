@@ -20,7 +20,14 @@ const Avatar = () => {
     return ''
   }
   const handleRole = (e) => {
-    console.log(e.innerText)
+    if (e.innerText === 'Herramientas') {
+      setRole('Tools')
+      return
+    }
+    if (e.innerText === 'Aprendiendo') {
+      setRole('Learning')
+      return
+    }
     setRole(e.innerText)
   }
 
