@@ -46,7 +46,7 @@ hr{
         align-items: center;
         text-align: center;
         flex-direction: column;
-        justify-content: center;
+        justify-content: center ;
     }
     hr{
         display: none;
