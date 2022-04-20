@@ -1,9 +1,12 @@
+import { useContext } from 'react'
+import { LanguageContext } from '../../languages/languageContext'
 import './Contact.css'
 
 const Contact = () => {
+  const { text } = useContext(LanguageContext)
   return (
     <div className="contact">
-      <h2>Contact</h2>
+      <h2>{text.contact.title}</h2>
       <ul>
         <li>Barcelona</li>
         <li>hectorllorca7@gmail.com</li>

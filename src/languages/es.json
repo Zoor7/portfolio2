@@ -1,0 +1,43 @@
+{
+    "about":{
+        "title": "SOBRE MI SOBRE MI SOBRE MI SOBRE MI SOBRE MI SOBRE MI",
+        "desc":"Hola, soy Héctor, me gusta pasar tiempo picando teclas y creando cosas."
+    },
+    "studies":{
+        "title": "ESTUDIOS ESTUDIOS ESTUDIOS ESTUDIOS ESTUDIOS ESTUDIOS ESTUDIOS ESTUDIOS",
+        "study1":{
+            "title": "CFGS Desarrollo Web (orientado móvil)",
+            "desc":"-Institut tecnològic de Barcelona, (2019-2021)."
+        },
+        "study2":{
+            "title": "FullStack Bootcamp",
+            "desc":"-fullstackopen.com/en"
+        }
+    },
+    "pex":{
+        "title":"EXPERIENCIA PROFESIONAL EXPERIENCIA PROFESIONAL EXPERIENCIA PROFESIONAL ",
+        "job1":{
+            "title": "Prácticas Front-end (React, React native)",
+            "desc":"-Grupo Hostienda, Barcelona (Enero, 2021 - Mayo, 2021)"
+        },
+        "job2":{
+            "title": "Buscando una oportunidad"
+        }
+    },
+    "projects":{
+        "title":"PROYECTOS PROYECTOS PROYECTOS PROYECTOS PROYECTOS PROYECTOS PROYECTOS"
+    },
+    "language":{
+        "title":"Lenguas",
+        "lang1":"Catalán nativo",
+        "lang2":"Castellano nativo",
+        "lang3":"Inglés B2"
+    },
+    "contact":{
+        "title":"Contacto"
+    },
+    "roles":{
+        "tools":"Herramientas",
+        "learning":"Aprendiendo"
+    }
+}

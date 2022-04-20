@@ -1,0 +1,13 @@
+.language-toggle select{
+    padding: 5px 20px;
+    border: 1px solid var(--text-primary);
+    border-radius: 5px;
+    appearance: none;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    background-color: var(--background-secondary);
+    
+}
+.language-toggle{
+    width: 100%;
+}

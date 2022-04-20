@@ -32,6 +32,27 @@ p{
 li{
   margin: 0.1rem 0;
 }
+a {
+  color: var(--text-primary);
+}
+.title {
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  margin: 0.5rem 0;
+  background-color: var(--background-secondary);
+  color: var(--text-secondary);
+  overflow: hidden;
+  white-space: nowrap;
+}
+.title p {
+  font-weight: 900;
+  font-size: 2.5rem;
+  animation: textMove 8s linear infinite;
+  animation-delay: 2.5s;
+}
+h2{
+    font-weight: 700;
+}
 
 
 :root {
@@ -57,4 +78,15 @@ li{
     transform: translate(-100%,0);
   }
     
+}
+
+@media (max-width: 1100px) {
+  .title p{
+    font-size: 2rem;
+  }
+}
+@media (max-width: 700px) {
+  .title p{
+    font-size: 1.5rem;
+  }
 }

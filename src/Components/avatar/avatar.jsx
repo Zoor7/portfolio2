@@ -1,8 +1,10 @@
-import { useState } from 'react'
+import { useContext, useState } from 'react'
+import { LanguageContext } from '../../languages/languageContext'
 import './avatar.css'
 
 const Avatar = () => {
   const [role, setRole] = useState('Frontend')
+  const { text } = useContext(LanguageContext)
 
   const handleArrow = (arrow, target) => {
     const scrollDiv = document.getElementsByClassName('avatar-filter')[0]
@@ -33,10 +35,10 @@ const Avatar = () => {
           Backend
         </p>
         <p className={isActive('Tools')} onClick={(e) => handleRole(e.target)}>
-          Tools
+          {text.roles.tools}
         </p>
         <p className={isActive('Learning')} onClick={(e) => handleRole(e.target)}>
-          Learning
+          {text.roles.learning}
         </p>
         <span onClick={() => handleArrow('>')}>{'>'}</span>
       </div>

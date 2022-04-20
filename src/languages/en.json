@@ -1,0 +1,45 @@
+{
+    "about":{
+        "title": "ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME",
+        "desc":"Hi, I'm Héctor, I like to spend time clicking buttons and creating things."
+    },
+    "studies":{
+        "title": "STUDIES STUDIES STUDIES STUDIES STUDIES STUDIES STUDIES STUDIES ",
+        "study1":{
+            "title": "CFGS Web development (mobile focused)",
+            "desc":"-Institut tecnològic de Barcelona, (2019-2021)."
+        },
+        "study2":{
+            "title": "FullStack Bootcamp",
+            "desc":"-fullstackopen.com/en"
+        }
+    },
+    "pex":{
+        "title":"PROFESSIONAL EXPERIENCE PROFESSIONAL EXPERIENCE",
+        "job1":{
+            "title": "Internship Front-end (React, React native)",
+            "desc":"-Grupo Hostienda, Barcelona (January, 2021 - May, 2021)"
+        },
+        "job2":{
+            "title": "Looking for an opportunity"
+        }
+    },
+    "projects":{
+        "title":"PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS"
+    },
+    "language":{
+        "title":"Languages",
+        "lang1":"Catalan native",
+        "lang2":"Spanish native",
+        "lang3":"English B2"
+    },
+    "contact":{
+        "title":"Contact"
+    },
+    "roles":{
+        "tools":"Tools",
+        "learning":"Learning"
+    }
+    
+
+}
