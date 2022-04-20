@@ -1,22 +1,12 @@
 .sidebar{
     display: grid;
     height: 100%;
-    place-content: center;
+    align-content: center;
     gap: 2rem;
     z-index: 2;
+    padding: 0.5rem;
 
 }
-.avatar{
-    display: grid;
-    grid-template-columns: repeat(4,40px);
-    height: 200px;
-    width: 200px;
-}
-.avatar img{
-    width: 100%;
-    height: 100%;
-}
-
 
 .name{
     display: flex;
@@ -46,13 +36,11 @@ hr{
 
 @media (max-width: 700px) {
     .sidebar{
-        display: flex;
-        justify-items: center;
+        display: grid;
+        grid-auto-flow: column;
         gap: 0;
     }
-    .avatar{
-        justify-content: center;
-    }
+
     .name-role{
         display: flex;
         align-items: center;
