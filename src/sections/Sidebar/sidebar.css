@@ -38,7 +38,7 @@ hr{
     .sidebar{
         display: grid;
         grid-auto-flow: column;
-        gap: 0;
+        gap: 0 ;
     }
 
     .name-role{
