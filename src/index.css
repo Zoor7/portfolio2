@@ -29,6 +29,10 @@ code {
 p{
   margin: 0.4rem 0;
 }
+li{
+  margin: 0.1rem 0;
+}
+
 
 :root {
   --background: #f7f2e9;
